@@ -1,0 +1,1396 @@
+<!-- https://liqlog.com/ -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酒商網站臨摹 HTML/CSS/RWD(2版)</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/maindebug.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container container">
+            <div class="nav-row row">
+                <div class="nav-col">
+                    <div class="nav-col_img-wrap img-wrap">
+                        <a href="">
+                            <img src="./img/logo-png.png" alt="" class="nav-col_img img">
+                        </a>
+                    </div>
+                    <div class="nav-col_img-wrap img-wrap">
+                        <img src="./img/header_text-png.png" alt="" class="img">
+                    </div>
+                </div>
+
+                <div class="nav-btn">
+                    <a href="">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+
+                <div class="nav-col nav-col_tablet">
+                    <div class="nav-col_tablet-img-wrap">
+                        <img src="./img/search-png.png" alt="">
+                    </div>
+                    <div class="nav-col_tablet-ul">
+                        <ul>
+                            <li>
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    記事<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    クチコミ<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    お酒<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    店舗<span>を探す</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-col_tablet-user">
+                        <div class="nav-col_tablet-user-login-wrap">
+                            <div class="nav-col_tablet-user-login">
+                                <img src="./img/user-png.png" alt="">
+                            </div>
+                            <div class="nav-col_tablet-user-name">
+                                <p>
+                                    ゲスト さん
+                                </p>
+                                <p>
+                                    <a href="">
+                                        <img src="./img/black_circle_arrow-png.png" alt="">ログイン
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="nav-col_tablet-user-reg">
+                            <a href="">
+
+                                <img src="./img/header_user_join-png.png" alt="">
+
+                                <span>
+                                    無料ユーザー登録
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-row">
+                <div class="hero-col">
+                    <div class="card-wrap">
+                        <div class="card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <div class="card-bgc">
+                            <p class="card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                            <div class="card-mid">
+                                <div class="card-logo">
+                                    <div class="card-logo-img-wrap">
+                                        <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                            class="card-logo-img">
+                                    </div>
+                                </div>
+                                <p class="card-name">LIQLOG_official</p>
+                                <div class="rwd-card-foot">
+                                    <p class="rwd-card-date">2022.02.21</p>
+                                    <p class="rwd-card-link">
+                                        <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                        <a href="">記事を読む</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <small class="card-date">2022.02.21</small>
+                                <p class="card-link">
+                                    <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                    <a href="">記事を読む</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-col">
+                    <div class="card-wrap">
+                        <div class="card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <div class="card-bgc">
+                            <p class="card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                            <div class="card-mid">
+                                <div class="card-logo">
+                                    <div class="card-logo-img-wrap">
+                                        <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                            class="card-logo-img">
+                                    </div>
+                                </div>
+                                <p class="card-name">LIQLOG_official</p>
+                                <div class="rwd-card-foot">
+                                    <p class="rwd-card-date">2022.02.21</p>
+                                    <p class="rwd-card-link">
+                                        <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                        <a href="">記事を読む</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <small class="card-date">2022.02.21</small>
+                                <p class="card-link">
+                                    <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                    <a href="">記事を読む</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-col">
+                    <div class="card-wrap">
+                        <div class="card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <div class="card-bgc">
+                            <p class="card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                            <div class="card-mid">
+                                <div class="card-logo">
+                                    <div class="card-logo-img-wrap">
+                                        <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                            class="card-logo-img">
+                                    </div>
+                                </div>
+                                <p class="card-name">LIQLOG_official</p>
+                                <div class="rwd-card-foot">
+                                    <p class="rwd-card-date">2022.02.21</p>
+                                    <p class="rwd-card-link">
+                                        <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                        <a href="">記事を読む</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <small class="card-date">2022.02.21</small>
+                                <p class="card-link">
+                                    <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                    <a href="">記事を読む</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-col">
+                    <div class="card-wrap">
+                        <div class="card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <div class="card-bgc">
+                            <p class="card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                            <div class="card-mid">
+                                <div class="card-logo">
+                                    <div class="card-logo-img-wrap">
+                                        <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                            class="card-logo-img">
+                                    </div>
+                                </div>
+                                <p class="card-name">LIQLOG_official</p>
+                                <div class="rwd-card-foot">
+                                    <p class="rwd-card-date">2022.02.21</p>
+                                    <p class="rwd-card-link">
+                                        <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                        <a href="">記事を読む</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <small class="card-date">2022.02.21</small>
+                                <p class="card-link">
+                                    <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                    <a href="">記事を読む</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-col">
+                    <div class="card-wrap">
+                        <div class="card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <div class="card-bgc">
+                            <p class="card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                            <div class="card-mid">
+                                <div class="card-logo">
+                                    <div class="card-logo-img-wrap">
+                                        <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                            class="card-logo-img">
+                                    </div>
+                                </div>
+                                <p class="card-name">LIQLOG_official</p>
+                                <div class="rwd-card-foot">
+                                    <p class="rwd-card-date">2022.02.21</p>
+                                    <p class="rwd-card-link">
+                                        <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                        <a href="">記事を読む</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-foot">
+                                <small class="card-date">2022.02.21</small>
+                                <p class="card-link">
+                                    <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                    <a href="">記事を読む</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row hero-num-row">
+                <div class="hero-num-col">
+                    <div class="hero-num-btn b-none mx-2px">
+                        <p><i class="fa-solid fa-arrow-left-long"></i></p>
+                    </div>
+                    <div class="hero-num-btn mx-2px">
+                        <p>01</p>
+                    </div>
+                    <div class="hero-num-btn mx-2px">
+                        <p>02</p>
+                    </div>
+                    <div class="hero-num-btn mx-2px">
+                        <p>03</p>
+                    </div>
+                    <div class="hero-num-btn mx-2px">
+                        <p>04</p>
+                    </div>
+                    <div class="hero-num-btn b-none mx-2px">
+                        <p><i class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info-section">
+        <div class="container">
+            <div class="img-wrap mx-auto py-2 max-w200">
+                <img src="./img/ttl_top_article-png.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="info-row">
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info-col">
+                    <div class="info-card-wrap">
+                        <div class="info-card-img-wrap">
+                            <img src="./img/kitagawahonke_main-jpg.jpg" alt="">
+                            <div class="info-card-absolute">
+                                <p>酒造・メーカー紹介</p>
+                            </div>
+                        </div>
+                        <p class="info-card-txt">「和醸良酒をモットーに。」時代に合わせた酒造り－京都府 北川本家－</p>
+                        <div class="info-card-foot d-flex ai-md jc-sb">
+                            <small class="info-card-date">2022.02.21</small>
+                            <p class="info-card-link">
+                                <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                <a href="">記事を読む</a>
+                            </p>
+                        </div>
+                        <div class="info-card-mid d-flex ai-md">
+                            <div class="info-card-logo">
+                                <div class="info-card-logo-img-wrap">
+                                    <img src="./img/irKlDLpIe8wgJuhzvHQYhocsco2wj0fAKzulb6TD-jpg.jpg" alt=""
+                                        class="info-card-logo-img">
+                                </div>
+                            </div>
+                            <p class="info-card-name">LIQLOG_official</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container d-flex jc-ct">
+            <div class="d-flex ai-md jc-ct">
+                <div class="info-num-btn lg mx-4px">
+                    <p><i class="fa-solid fa-arrow-left"></i></p>
+                </div>
+                <div class="info-num-btn mx-4px">
+                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="info-page">01&nbsp;/&nbsp;06</p>
+            <button class="info-btn-last">
+                <i>
+                    <img src="./img/white_circle_arrow-png.png" alt="" class="info-btn-arrow">
+                </i>
+                <a href="">他の記事もみる</a>
+            </button>
+        </div>
+    </section>
+    <section class="twitter-section">
+        <div class="container twitter-section">
+            <div class="twitter-title-img-wrap py-3">
+                <img src="./img/ttl_top_review-png.png" alt="" class="twitter-title-img">
+            </div>
+            <div class="twitter-row">
+                <div class="twitter-bigcol">
+                    <div class="twitter-card-absolute">
+                        <div class="twitter-card-absolute-img">
+                            <img src="./img/b1XyA4gwora8VTayPVbnHGQs8vZ8K5vmxr3UwaUE-jpg.jpg" alt="">
+                        </div>
+                        <p class="twitter-card-absolute-name">
+                            anne_touchable
+                        </p>
+                    </div>
+                    <div class="twitter-col">
+                        <div class="twitter-card-wrap">
+                            <div class="rwd-twitter-card-sec1">
+                                <div class="rwd-twitter-card-star">
+                                    <div class="twitter-card-star pb-12px">
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_half-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_gray-png.png" alt="">
+                                        </i>
+                                    </div>
+
+                                    <p class="twitter-card-category pb-12px">
+                                        <a href="">日本酒</a>
+                                        <a href="">茨城県</a>
+                                        <a href="">森島酒造 (株)</a>
+                                    </p>
+                                </div>
+
+                                <p class="twitter-card-title pb-12px">
+                                    森嶋
+                                </p>
+
+                                <p class="twitter-card-content pb-12px">
+                                    ★森嶋 純米吟醸 山田錦★
+                                    茨城県 森島酒造
+
+                                    【使用米】兵庫県産 山田錦
+                                    【精米歩合】60％
+                                    【日本酒度】+2
+                                    【アルコール度】15度
+
+                                    ラベルには...
+                                </p>
+
+                                <p class="pb-12px">
+                                    <small class="twitter-card-date">
+                                        2022.02.21
+                                    </small>
+                                </p>
+                            </div>
+
+
+                            <div class="twitter-card-mid-row d-flex ai-md">
+                                <div class="twitter-card-colleft">
+                                    <div class="twitter-card-place d-flex">
+                                        <div class="twitter-card-place-img-wrap">
+                                            <img src="./img/icon_map_sake-svg.svg" alt="" class="info-card-place-img">
+                                        </div>
+                                        <p class="twitter-card-placenamejp">
+                                            茨城県
+                                        </p>
+                                        <p class="twitter-card-placenameen">
+                                            Ibaragi
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="twitter-card-right-row">
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rwd-twitter-card-sec2">
+                                <div class="twitter-card-mid-row2 d-flex ai-md">
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-good">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img" src="./img/good_icon-png.png"
+                                                        alt="">
+                                                </div>
+                                                <p>いいね</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-goodtxt">
+                                                <p>1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-wine">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img"
+                                                        src="./img/good_drink-png.png" alt="">
+                                                </div>
+                                                <p>飲みたい</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-winetxt">
+                                                <p>0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="twitter-card-mid-row3 d-flex ai-md">
+                                    <div class="twitter-card-row3-col-tag">
+                                        <div>
+                                            <a href="">Tag</a>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row3-col-a">
+                                        <a href="">#森嶋酒造</a>
+                                        <a href="">#大阪</a>
+                                        <a href="">#森嶋</a>
+                                        <a href="">#鮨処 辰</a>
+                                        <a href="">#日本酒</a>
+                                        <a href="">#お初天神</a>
+                                    </div>
+                                </div>
+
+                                <p class="twitter-card-link">
+                                    <span>
+                                        <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                        <a href="">
+                                            クチコミを読む
+                                        </a>
+                                    </span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="twitter-bigcol">
+                    <div class="twitter-card-absolute">
+                        <div class="twitter-card-absolute-img">
+                            <img src="./img/b1XyA4gwora8VTayPVbnHGQs8vZ8K5vmxr3UwaUE-jpg.jpg" alt="">
+                        </div>
+                        <p class="twitter-card-absolute-name">
+                            anne_touchable
+                        </p>
+                    </div>
+                    <div class="twitter-col">
+                        <div class="twitter-card-wrap">
+                            <div class="rwd-twitter-card-sec1">
+                                <div class="rwd-twitter-card-star">
+                                    <div class="twitter-card-star pb-12px">
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_half-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_gray-png.png" alt="">
+                                        </i>
+                                    </div>
+
+                                    <p class="twitter-card-category pb-12px">
+                                        <a href="">日本酒</a>
+                                        <a href="">茨城県</a>
+                                        <a href="">森島酒造 (株)</a>
+                                    </p>
+                                </div>
+
+                                <p class="twitter-card-title pb-12px">
+                                    森嶋
+                                </p>
+
+                                <p class="twitter-card-content pb-12px">
+                                    ★森嶋 純米吟醸 山田錦★
+                                    茨城県 森島酒造
+
+                                    【使用米】兵庫県産 山田錦
+                                    【精米歩合】60％
+                                    【日本酒度】+2
+                                    【アルコール度】15度
+
+                                    ラベルには...
+                                </p>
+
+                                <p class="pb-12px">
+                                    <small class="twitter-card-date">
+                                        2022.02.21
+                                    </small>
+                                </p>
+                            </div>
+
+
+                            <div class="twitter-card-mid-row d-flex ai-md">
+                                <div class="twitter-card-colleft">
+                                    <div class="twitter-card-place d-flex">
+                                        <div class="twitter-card-place-img-wrap">
+                                            <img src="./img/icon_map_sake-svg.svg" alt="" class="info-card-place-img">
+                                        </div>
+                                        <p class="twitter-card-placenamejp">
+                                            茨城県
+                                        </p>
+                                        <p class="twitter-card-placenameen">
+                                            Ibaragi
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="twitter-card-right-row">
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rwd-twitter-card-sec2">
+                                <div class="twitter-card-mid-row2 d-flex ai-md">
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-good">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img" src="./img/good_icon-png.png"
+                                                        alt="">
+                                                </div>
+                                                <p>いいね</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-goodtxt">
+                                                <p>1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-wine">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img"
+                                                        src="./img/good_drink-png.png" alt="">
+                                                </div>
+                                                <p>飲みたい</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-winetxt">
+                                                <p>0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="twitter-card-mid-row3 d-flex ai-md">
+                                    <div class="twitter-card-row3-col-tag">
+                                        <div>
+                                            <a href="">Tag</a>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row3-col-a">
+                                        <a href="">#森嶋酒造</a>
+                                        <a href="">#大阪</a>
+                                        <a href="">#森嶋</a>
+                                        <a href="">#鮨処 辰</a>
+                                        <a href="">#日本酒</a>
+                                        <a href="">#お初天神</a>
+                                    </div>
+                                </div>
+
+                                <p class="twitter-card-link">
+                                    <span>
+                                        <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                        <a href="">
+                                            クチコミを読む
+                                        </a>
+                                    </span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="twitter-bigcol">
+                    <div class="twitter-card-absolute">
+                        <div class="twitter-card-absolute-img">
+                            <img src="./img/b1XyA4gwora8VTayPVbnHGQs8vZ8K5vmxr3UwaUE-jpg.jpg" alt="">
+                        </div>
+                        <p class="twitter-card-absolute-name">
+                            anne_touchable
+                        </p>
+                    </div>
+                    <div class="twitter-col">
+                        <div class="twitter-card-wrap">
+                            <div class="rwd-twitter-card-sec1">
+                                <div class="rwd-twitter-card-star">
+                                    <div class="twitter-card-star pb-12px">
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_half-png.png" alt="">
+                                        </i>
+                                        <i>
+                                            <img src="./img/icon_star_gray-png.png" alt="">
+                                        </i>
+                                    </div>
+
+                                    <p class="twitter-card-category pb-12px">
+                                        <a href="">日本酒</a>
+                                        <a href="">茨城県</a>
+                                        <a href="">森島酒造 (株)</a>
+                                    </p>
+                                </div>
+
+                                <p class="twitter-card-title pb-12px">
+                                    森嶋
+                                </p>
+
+                                <p class="twitter-card-content pb-12px">
+                                    ★森嶋 純米吟醸 山田錦★
+                                    茨城県 森島酒造
+
+                                    【使用米】兵庫県産 山田錦
+                                    【精米歩合】60％
+                                    【日本酒度】+2
+                                    【アルコール度】15度
+
+                                    ラベルには...
+                                </p>
+
+                                <p class="pb-12px">
+                                    <small class="twitter-card-date">
+                                        2022.02.21
+                                    </small>
+                                </p>
+                            </div>
+
+
+                            <div class="twitter-card-mid-row d-flex ai-md">
+                                <div class="twitter-card-colleft">
+                                    <div class="twitter-card-place d-flex">
+                                        <div class="twitter-card-place-img-wrap">
+                                            <img src="./img/icon_map_sake-svg.svg" alt="" class="info-card-place-img">
+                                        </div>
+                                        <p class="twitter-card-placenamejp">
+                                            茨城県
+                                        </p>
+                                        <p class="twitter-card-placenameen">
+                                            Ibaragi
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="twitter-card-right-row">
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                    <div class="twitter-card-colright">
+                                        <!-- <div class="twitter-card-colright-img-wrap">
+
+                                    </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rwd-twitter-card-sec2">
+                                <div class="twitter-card-mid-row2 d-flex ai-md">
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-good">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img" src="./img/good_icon-png.png"
+                                                        alt="">
+                                                </div>
+                                                <p>いいね</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-goodtxt">
+                                                <p>1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row2-col">
+                                        <div class="twitter-card-row2-col-card-wrap">
+                                            <div class="twitter-card-row2-col-wine">
+                                                <div class="twitter-card-row2-col-img-wrap">
+                                                    <img class="twitter-card-row2-col-img"
+                                                        src="./img/good_drink-png.png" alt="">
+                                                </div>
+                                                <p>飲みたい</p>
+                                            </div>
+                                            <div class="twitter-card-row2-col-winetxt">
+                                                <p>0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="twitter-card-mid-row3 d-flex ai-md">
+                                    <div class="twitter-card-row3-col-tag">
+                                        <div>
+                                            <a href="">Tag</a>
+                                        </div>
+                                    </div>
+                                    <div class="twitter-card-row3-col-a">
+                                        <a href="">#森嶋酒造</a>
+                                        <a href="">#大阪</a>
+                                        <a href="">#森嶋</a>
+                                        <a href="">#鮨処 辰</a>
+                                        <a href="">#日本酒</a>
+                                        <a href="">#お初天神</a>
+                                    </div>
+                                </div>
+
+                                <p class="twitter-card-link">
+                                    <span>
+                                        <i><img src="./img/black_circle_arrow-png.png" alt=""></i>
+                                        <a href="">
+                                            クチコミを読む
+                                        </a>
+                                    </span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex jc-ct">
+            <div class="d-flex ai-md jc-ct">
+                <div class="info-num-btn lg mx-4px">
+                    <p><i class="fa-solid fa-arrow-left"></i></p>
+                </div>
+                <div class="info-num-btn mx-4px">
+                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="info-page">01&nbsp;/&nbsp;06</p>
+            <button class="info-btn-last">
+                <i>
+                    <img src="./img/white_circle_arrow-png.png" alt="" class="info-btn-arrow">
+                </i>
+                <a href="">他の記事もみる</a>
+            </button>
+        </div>
+    </section>
+    <section class="search-section">
+        <div class="search-section-container container">
+            <div class="search-section-row row">
+                <div class="search-section-col">
+                    <div class="search-section-wrap">
+
+                        <div class="search-section-img-wrap">
+                            <img class="search-section-img" src="./img/ttl_top_article_search-png.png" alt="">
+                        </div>
+
+                        <p>フリーワードで探す</p>
+
+                        <div class="search-section-input-wrap">
+
+                            <input type="text" id="search" placeholder="お酒の名前、メーカー、種類など">
+                            <button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <p>記事の種類</p>
+
+                        <ul class="search-section-type-wrap">
+                            <li>
+                                <a href="">酒造・メーカー紹介</a>
+                            </li>
+                            <li>
+                                <a href="">日本酒レビュー</a>
+                            </li>
+                            <li>
+                                <a href="">日本酒の知識</a>
+                            </li>
+                            <li>
+                                <a href="">肴・おつまみ</a>
+                            </li>
+                            <li>
+                                <a href="">その他</a>
+                            </li>
+                        </ul>
+
+                        <p class="search-section-link">
+                            <a href="">
+                                もっとみる
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="search-section-col">
+                    <div class="search-section-wrap">
+
+                        <div class="search-section-img-wrap">
+                            <img class="search-section-img" src="./img/ttl_top_review_search-png.png" alt="">
+                        </div>
+
+                        <p>フリーワードで探す</p>
+
+                        <div class="search-section-input-wrap">
+
+                            <input type="text" id="search" placeholder="お酒の名前、メーカー、種類など">
+                            <button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <p>記事の種類</p>
+
+                        <ul class="search-section-type-wrap">
+                            <li>
+                                <a href="">日本酒</a>
+                            </li>
+                            <li>
+                                <a href="">焼酎</a>
+                            </li>
+                            <li>
+                                <a href="">ワイン</a>
+                            </li>
+                            <li>
+                                <a href="">ウイスキー</a>
+                            </li>
+                            <li>
+                                <a href="">ブランデー</a>
+                            </li>
+                            <li>
+                                <a href="">スピリッツ</a>
+                            </li>
+                            <li>
+                                <a href="">リキュール</a>
+                            </li>
+                            <li>
+                                <a href="">ビール</a>
+                            </li>
+                            <li>
+                                <a href="">その他</a>
+                            </li>
+                        </ul>
+
+                        <p class="search-section-link">
+                            <a href="">
+                                もっとみる
+                            </a>
+                        </p>
+
+                        <p>評価</p>
+
+                        <div class="search-section-rating-wrap">
+                            <div class="search-section-rating-img-wrap">
+                                <img src="./img/score_3_black-png.png" alt="">
+                            </div>
+                            <div class="search-section-rating-img-wrap">
+                                <img src="./img/score_4_black-png.png" alt="">
+                            </div>
+                            <div class="search-section-rating-img-wrap">
+                                <img src="./img/score_5_black-png.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-section">
+        <div class="news-container container">
+            <p>
+                ニュース
+            </p>
+            <div class="news-row row">
+                <div class="news-col">
+                    <div class="news-wrap">
+                        <div class="news-date">
+                            <span>2022</span>
+                            <span>2/3</span>
+                        </div>
+                        <div class="news-title">
+                            <p>LIQLOG（リクログ）アプリ・リリースのお知らせ</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="news-col">
+                    <div class="news-wrap">
+                        <div class="news-date">
+                            <span>2022</span>
+                            <span>2/3</span>
+                        </div>
+                        <div class="news-title">
+                            <p>LIQLOG（リクログ）アプリ・リリースのお知らせ</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="news-col">
+                    <div class="news-wrap">
+                        <div class="news-date">
+                            <span>2022</span>
+                            <span>2/3</span>
+                        </div>
+                        <div class="news-title">
+                            <p>LIQLOG（リクログ）アプリ・リリースのお知らせ</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container jc-ct news-section-btnflex">
+            <div>
+                <div class="ai-md jc-ct d-flex-nw">
+                    <div class="info-num-btn lg mx-4px flex-shrink">
+                        <p><i class="fa-solid fa-arrow-left"></i></p>
+                    </div>
+                    <div class="info-num-btn mx-4px flex-shrink">
+                        <p><i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <p class="info-page">01&nbsp;/&nbsp;06</p>
+            </div>
+            <div>
+                <button class="info-btn-last">
+                    <i>
+                        <img src="./img/white_circle_arrow-png.png" alt="" class="info-btn-arrow">
+                    </i>
+                    <a href="">一覧へ</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="brand-section">
+        <div class="container brand-section-container">
+            <div class="brand-section-row">
+                <div class="rwd-brand-section-img-wrap">
+                    <div class="brand-section-img-wrap1">
+                        <img src="./img/about_head-png.png" alt="">
+                    </div>
+                    <div class="brand-section-img-wrap2">
+                        <img src="./img/about_head_text-png.png" alt="">
+                    </div>
+                </div>
+                <p>
+                    LIQLOG（リクログ）は “Made in JAPAN” のありとあらゆるお酒の情報を集め、 全国のお酒ファンの皆さまのクチコミや評価を集計し発信する、 日本のお酒専門のメディアサイトです。
+                </p>
+                <div>
+                    <button class="info-btn-last">
+                        <i>
+                            <img src="./img/white_circle_arrow-png.png" alt="" class="info-btn-arrow">
+                        </i>
+                        <a href="">LIQLOGとは</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="footer-big-col">
+                <div class="footer-row row">
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    記事<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    クチコミ<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    お酒<span>を探す</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    ファン<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    店舗<span>を探す</span>
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/white_circle_arrow-png.png" alt=""></i>
+                                <a href="">
+                                    メーカー<span>を探す</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row row">
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+
+                                <a href="">
+                                    LIQLOGとは
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+                                    店舗掲載について
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <a href="">
+
+                                    利用方法
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+
+                                    記事・広告掲載について
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row row">
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+
+                                <a href="">
+                                    運営会社
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+                                    利用規約
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+                                    サイトマップ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    特定商取引法
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+
+
+                                    プライバシーポリシー
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="">
+
+                                    お問い合わせ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row row">
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <i><img src="./img/twitter-png.png" alt=""></i>
+                                <a href="">
+                                    Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <i><img src="./img/instagram-png.png" alt=""></i>
+                                <a href="">
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li>
+                                <i><img src="./img/facebook-png.png" alt=""></i>
+                                <a href="">
+                                    Facebook
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row row">
+                    <div>
+                        <div>
+                            <img src="./img/download_in_app_store_black-png.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./img/download_in_google_play_store-png.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-big-col">
+                <div class="footer-row row">
+                    <div>
+                        <img src="./img/footer_logo-png.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-container">
+            <p class="footer-copyright">©2022 LIQLOG by PAZ Co. Ltd.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
